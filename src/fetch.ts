@@ -8,9 +8,6 @@ const { JSDOM } = jsdom;
 import { knownEmbedHosts, UAString } from './constants';
 
 export const fetch = async (req: any, res: any) => {
-  console.log('received request');
-  console.log(req);
-
   // set CORS headers
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods', 'GET, OPTIONS');

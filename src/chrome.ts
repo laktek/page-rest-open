@@ -8,7 +8,7 @@ async function r(promise: Promise<any>, ms: number, defaultValue=undefined) {
 
 const second = 1000;
 
-export default async function handleUsingChrome(url: string, host: string) {
+export default async function handleUsingChrome(url: string) {
   var error;
 
   try {
